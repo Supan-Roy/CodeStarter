@@ -97,7 +97,7 @@ Please open an issue if you find unexpected behavior.
 
 ## 📦 Release Notes
 
-### **0.0.1**
+### **0.0.4**
 
 * Initial release
 * Auto-template support for 20+ programming languages
@@ -108,12 +108,8 @@ Please open an issue if you find unexpected behavior.
 
 ## 📸 Screenshots
 
-*(Add screenshots here once extension is fully ready)*
-Example:
-
 ```
-images/codestarter-cpp-demo.gif
-images/codestarter-python-demo.png
+![CodeStarter Demo](media/screenshot.png)
 ```
 
 ---
