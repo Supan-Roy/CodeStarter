@@ -1,65 +1,130 @@
-# codestarter README
+# 🚀 CodeStarter — Multi-Language Auto Template Generator
 
-This is the README for your extension "codestarter". After writing up a brief description, we recommend including the following sections.
+**CodeStarter** automatically inserts clean, ready-to-use starter templates whenever you create a new file in any major programming language.
+No more typing boilerplate — just start coding instantly.
 
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Supports **C, C++, Python, Java, JavaScript, TypeScript, HTML, CSS, Go, Rust, PHP, SQL, JSON, Bash, React, Dart, Kotlin, Swift, C#, and more.**
 
 ---
 
-## Working with Markdown
+## ✨ Features
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+### 🔹 **Automatic Template Insertion**
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
+When you create or open an empty file like:
 
-## For more information
+* `main.cpp`
+* `script.py`
+* `Main.java`
+* `index.html`
+* `app.js`
+* `program.go`
+* `main.kt`
+* `App.jsx`
+* and many more…
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+CodeStarter instantly inserts a clean starter template suited to that language.
 
-**Enjoy!**
+Example for **C++**:
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
+    // cursor lands here
+    return 0;
+}
+```
+
+### 🔹 **Supports 20+ Languages**
+
+Includes templates for:
+
+* **C, C++**
+* **Python**
+* **Java**
+* **JavaScript, TypeScript**
+* **HTML, CSS**
+* **C#**
+* **Go**
+* **Rust**
+* **PHP**
+* **SQL**
+* **JSON**
+* **Bash**
+* **React JSX / TSX**
+* **Dart (Flutter)**
+* **Kotlin**
+* **Swift**
+
+…and more coming soon.
+
+### 🔹 **Smart Cursor Placement**
+
+After inserting the template, CodeStarter positions the cursor at the perfect spot so you can start coding immediately.
+
+---
+
+## 🛠️ Requirements
+
+No dependencies.
+Works on **any VS Code installation** (Windows, macOS, Linux).
+
+---
+
+## ⚙️ Extension Settings
+
+*(Optional — future)*
+
+In future updates, CodeStarter will include configurable settings such as:
+
+* Enable/disable auto-templates per language
+* Custom user templates
+* Custom indentation behavior
+
+---
+
+## 🐞 Known Issues
+
+None currently.
+Please open an issue if you find unexpected behavior.
+
+---
+
+## 📦 Release Notes
+
+### **0.0.1**
+
+* Initial release
+* Auto-template support for 20+ programming languages
+* Smart activation events
+* Reliable editor detection system
+
+---
+
+## 📸 Screenshots
+
+*(Add screenshots here once extension is fully ready)*
+Example:
+
+```
+images/codestarter-cpp-demo.gif
+images/codestarter-python-demo.png
+```
+
+---
+
+## ❤️ Feedback & Contribution
+
+PRs and suggestions are welcome!
+Help CodeStarter grow into the best coding starter extension in the marketplace.
+
+---
+
+# 🎉 Enjoy Coding Faster!
+
+CodeStarter is designed to save your time and boost productivity — especially for students, competitive programmers, and multi-language developers.
