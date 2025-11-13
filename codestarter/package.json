@@ -3,6 +3,7 @@
   "displayName": "CodeStarter",
   "description": "Automatically inserts starter templates for popular programming languages when you create a new file.",
   "version": "0.0.1",
+  "icon": "media/icon.png",
   "engines": {
     "vscode": "^1.106.0"
   },
