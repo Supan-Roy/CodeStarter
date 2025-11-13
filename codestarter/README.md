@@ -97,7 +97,7 @@ Please open an issue if you find unexpected behavior.
 
 ## 📦 Release Notes
 
-### **0.0.4**
+### **0.0.5**
 
 * Initial release
 * Auto-template support for 20+ programming languages
@@ -109,7 +109,8 @@ Please open an issue if you find unexpected behavior.
 ## 📸 Screenshots
 
 
-![CodeStarter Demo](media/screenshot.png)
+![CodeStarter Demo](https://raw.githubusercontent.com/Supan-Roy/CodeStarter/main/codestarter/media/screenshot.png
+)
 
 ---
 
