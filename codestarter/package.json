@@ -1,13 +1,13 @@
 {
-  "name": "codestarter",
+  "name": "codestarter-sroy",
   "publisher": "supanbeingroy",
   "displayName": "CodeStarter",
   "description": "Automatically inserts starter templates for popular programming languages when you create a new file.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icon": "media/icon.png",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/Supan-Roy/CodeStarter"
+    "type": "git",
+    "url": "https://github.com/Supan-Roy/CodeStarter"
   },
   "engines": {
     "vscode": "^1.106.0"
