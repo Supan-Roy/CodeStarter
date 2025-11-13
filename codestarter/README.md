@@ -108,9 +108,8 @@ Please open an issue if you find unexpected behavior.
 
 ## 📸 Screenshots
 
-```
+
 ![CodeStarter Demo](media/screenshot.png)
-```
 
 ---
 
