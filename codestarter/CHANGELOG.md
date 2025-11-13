@@ -1,9 +1,49 @@
-# Change Log
+# 📌 Changelog — CodeStarter
 
-All notable changes to the "codestarter" extension will be documented in this file.
+All notable changes to this project will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+---
 
-## [Unreleased]
+## **0.0.1** — Initial Release
 
-- Initial release
+**Released:** (date you publish)
+
+### 🎉 Features
+
+* Added automatic starter templates for:
+
+  * C, C++
+  * Python
+  * Java
+  * JavaScript
+  * TypeScript
+  * HTML
+  * CSS
+  * Bash
+  * C#
+  * Go
+  * Rust
+  * PHP
+  * SQL
+  * JSON
+  * React JSX
+  * React TSX
+  * Dart (Flutter)
+  * Kotlin
+  * Swift
+* Smart editor detection for reliable template insertion
+* Automatic cursor placement inside the main code block
+* Activation triggers for 20+ programming languages
+* Clean modular code structure
+
+---
+
+## Future Versions (planned)
+
+### 🔜 0.1.x
+
+* User-customizable templates
+* Enable/disable languages individually
+* Add more languages (Ruby, Scala, Julia, Haskell)
+* Add project-type templates (React app, Node.js app, Django templates)
+* Add command: “Insert Template Manually”
