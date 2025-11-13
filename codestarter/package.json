@@ -9,14 +9,31 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:cpp",
+    "onLanguage:python",
+    "onLanguage:java",
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:html",
+    "onLanguage:css",
+    "onLanguage:c",
+    "onLanguage:shellscript",
+    "onLanguage:csharp",
+    "onLanguage:go",
+    "onLanguage:rust",
+    "onLanguage:php",
+    "onLanguage:sql",
+    "onLanguage:json",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact",
+    "onLanguage:dart",
+    "onLanguage:kotlin",
+    "onLanguage:swift",
+    "onStartupFinished"
+  ],
   "main": "./extension.js",
-  "contributes": {
-    "commands": [{
-      "command": "codestarter.helloWorld",
-      "title": "Hello World"
-    }]
-  },
+  "contributes": {},
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
