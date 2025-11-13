@@ -78,7 +78,6 @@ Works on **any VS Code installation** (Windows, macOS, Linux).
 
 ## ⚙️ Extension Settings
 
-*(Optional — future)*
 
 In future updates, CodeStarter will include configurable settings such as:
 
@@ -97,7 +96,7 @@ Please open an issue if you find unexpected behavior.
 
 ## 📦 Release Notes
 
-### **0.0.5**
+### **0.0.7**
 
 * Initial release
 * Auto-template support for 20+ programming languages
