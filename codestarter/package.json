@@ -10,7 +10,7 @@
     "url": "https://github.com/Supan-Roy/CodeStarter"
   },
   "engines": {
-    "vscode": "^1.106.0"
+    "vscode": "^1.50.0"
   },
   "categories": [
     "Other"
