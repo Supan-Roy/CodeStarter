@@ -3,7 +3,7 @@
   "publisher": "supanbeingroy",
   "displayName": "CodeStarter",
   "description": "Automatically inserts starter templates for popular programming languages when you create a new file.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "icon": "media/icon.png",
   "repository": {
     "type": "git",
@@ -48,7 +48,7 @@
   "devDependencies": {
     "@types/mocha": "^10.0.10",
     "@types/node": "22.x",
-    "@types/vscode": "^1.106.0",
+    "@types/vscode": "^1.100.0",
     "@vscode/test-cli": "^0.0.12",
     "@vscode/test-electron": "^2.5.2",
     "eslint": "^9.39.1"
