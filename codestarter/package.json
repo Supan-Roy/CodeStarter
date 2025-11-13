@@ -1,5 +1,6 @@
 {
   "name": "codestarter",
+  "publisher": "supanbeingroy",
   "displayName": "CodeStarter",
   "description": "Automatically inserts starter templates for popular programming languages when you create a new file.",
   "version": "0.0.1",
