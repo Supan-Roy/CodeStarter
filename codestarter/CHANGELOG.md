@@ -1,12 +1,8 @@
 # 📌 Changelog — CodeStarter
 
-All notable changes to this project will be documented in this file.
+## **0.0.8** — Support for old v VS Code
 
----
-
-## **0.0.1** — Initial Release
-
-**Released:** (date you publish)
+**Released:** 21 Nov, 2025
 
 ### 🎉 Features
 
@@ -40,7 +36,7 @@ All notable changes to this project will be documented in this file.
 
 ## Future Versions (planned)
 
-### 🔜 0.1.x
+### 🔜 0.1.9
 
 * User-customizable templates
 * Enable/disable languages individually
