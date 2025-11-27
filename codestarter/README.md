@@ -96,12 +96,12 @@ Please open an issue if you find unexpected behavior.
 
 ## 📦 Release Notes
 
-### **0.0.7**
+### **0.0.9**
 
-* Initial release
-* Auto-template support for 20+ programming languages
-* Smart activation events
-* Reliable editor detection system
+* Added dynamic React JSX & TSX boilerplate
+* Component names now auto-generate from the filename
+* Improved activation flow & subscription handling
+* Minor internal improvements and code cleanup
 
 ---
 

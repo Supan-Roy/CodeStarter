@@ -1,8 +1,8 @@
 # 📌 Changelog — CodeStarter
 
-## **0.0.8** — Support for old v VS Code
+## **0.0.9** — Added smart React JSX/TSX templates with automatic component naming based on filename. Improved event handling and internal cleanup.
 
-**Released:** 21 Nov, 2025
+**Released:** 27 Nov, 2025
 
 ### 🎉 Features
 
@@ -36,7 +36,7 @@
 
 ## Future Versions (planned)
 
-### 🔜 0.1.9
+### 🔜 0.1.0
 
 * User-customizable templates
 * Enable/disable languages individually

@@ -3,7 +3,7 @@
   "publisher": "supanbeingroy",
   "displayName": "CodeStarter",
   "description": "Automatically inserts starter templates for popular programming languages when you create a new file.",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "icon": "media/icon.png",
   "repository": {
     "type": "git",

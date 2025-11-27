@@ -213,20 +213,32 @@ function insertJsonTemplate(editor, doc) {
 	));
 }
 
-function insertJsxTemplate(editor, doc) {
-	if (doc.languageId !== "javascriptreact") return;
-	if (doc.getText().trim() !== "") return;
+function insertReactJsxTemplate(editor, doc) {
+    if (doc.languageId !== "javascriptreact" && doc.languageId !== "typescriptreact") return;
+    if (doc.getText().trim() !== "") return;
 
-	editor.insertSnippet(new vscode.SnippetString(
-		`export default function App() {
+    const fileName = doc.fileName.split("\\").pop().split("/").pop(); 
+    const baseName = fileName.replace(/\.[^/.]+$/, ""); 
+
+    const componentName = baseName
+        .replace(/[-_ ]+/g, " ")
+        .split(" ")
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join("");
+
+    editor.insertSnippet(
+        new vscode.SnippetString(
+`export default function ${componentName}() {
     return (
         <div>
             $1
         </div>
     );
 }`
-	));
+        )
+    );
 }
+
 
 function insertTsxTemplate(editor, doc) {
 	if (doc.languageId !== "typescriptreact") return;
@@ -282,36 +294,36 @@ main()`
 
 
 function activate(context) {
-	console.log("CodeStarter is active!");
+    console.log("CodeStarter is active!");
 
-	// Trigger when a file is opened
-	vscode.workspace.onDidOpenTextDocument((doc) => {
-		const editor = vscode.window.activeTextEditor;
-		if (!editor) return;
-		if (editor.document !== doc) return;
+    const openListener = vscode.workspace.onDidOpenTextDocument((doc) => {
+        const editor = vscode.window.activeTextEditor;
+        if (!editor) return;
+        if (editor.document !== doc) return;
 
-		insertCppTemplate(editor, doc);
-		insertPythonTemplate(editor, doc);
-		insertJavaTemplate(editor, doc);
-		insertJsTemplate(editor, doc);
-		insertHtmlTemplate(editor, doc);
-		insertCTemplate(editor, doc);
-		insertTsTemplate(editor, doc);
-		insertCssTemplate(editor, doc);
-		insertBashTemplate(editor, doc);
-		insertCsharpTemplate(editor, doc);
-		insertGoTemplate(editor, doc);
-		insertRustTemplate(editor, doc);
-		insertPhpTemplate(editor, doc);
-		insertSqlTemplate(editor, doc);
-		insertJsonTemplate(editor, doc);
-		insertJsxTemplate(editor, doc);
-		insertTsxTemplate(editor, doc);
-		insertDartTemplate(editor, doc);
-		insertKotlinTemplate(editor, doc);
-		insertSwiftTemplate(editor, doc);
+        insertCppTemplate(editor, doc);
+        insertPythonTemplate(editor, doc);
+        insertJavaTemplate(editor, doc);
+        insertJsTemplate(editor, doc);
+        insertHtmlTemplate(editor, doc);
+        insertCTemplate(editor, doc);
+        insertTsTemplate(editor, doc);
+        insertCssTemplate(editor, doc);
+        insertBashTemplate(editor, doc);
+        insertCsharpTemplate(editor, doc);
+        insertGoTemplate(editor, doc);
+        insertRustTemplate(editor, doc);
+        insertPhpTemplate(editor, doc);
+        insertSqlTemplate(editor, doc);
+        insertJsonTemplate(editor, doc);
+        insertReactJsxTemplate(editor, doc);
+        insertTsxTemplate(editor, doc);
+        insertDartTemplate(editor, doc);
+        insertKotlinTemplate(editor, doc);
+        insertSwiftTemplate(editor, doc);
+    });
 
-	});
+    context.subscriptions.push(openListener);
 
 	// Trigger when the user switches editors (more reliable)
 	vscode.window.onDidChangeActiveTextEditor((editor) => {
@@ -333,7 +345,7 @@ function activate(context) {
 		insertPhpTemplate(editor, doc);
 		insertSqlTemplate(editor, doc);
 		insertJsonTemplate(editor, doc);
-		insertJsxTemplate(editor, doc);
+		insertReactJsxTemplate(editor, doc);
 		insertTsxTemplate(editor, doc);
 		insertDartTemplate(editor, doc);
 		insertKotlinTemplate(editor, doc);
